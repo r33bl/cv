@@ -1,0 +1,47 @@
+/*********************************tag selectors*******************************/
+body {
+  background-color: #eeeeee;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 6px;
+  width: 10%;
+}
+
+h1 {
+  color: #00adb5;
+}
+
+h3 {
+  color: #00adb5;
+}
+
+img:hover {
+  background-color: black;
+}
+
+/*********************************class selectors*******************************/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+
+.rating>span:hover:before,
+.rating>span:hover~span:before {
+  content: "\0265A";
+  position: absolute;
+}
+
+/*.logo {
+  border-radius: 150px;
+}
+/*********************************id selectors*******************************/
+/*
+#heading {
+  color: red;
+}
+*/
